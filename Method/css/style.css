@@ -1,0 +1,92 @@
+/* reset styles    RESTAURA TODOS LOS ESTILOS POR DEFECTO DEL NAVEGADOR*/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/*end reset */
+/*ESTILOS PARA LA PÁGINA HTML Y PHP*/
+.caja-principal{
+  font-size: 1.2em;
+  font-family: sans-serif;
+  margin: auto;
+  margin-top: 25px;
+  max-width: 1000px;
+  max-height: 1000px;
+  border: #8D003B solid 3px;
+  border-radius: 5px;
+}
+/*ESTILOS PARA LA PÁGINA HTML*/
+/*Explicacion*/
+.caja-principal .explicacion{
+  margin: 20px;
+  color:#A61D00;
+  text-align: justify;
+}
+.caja-principal .explicacion h1{
+  font-weight: bolder;
+}
+.caja-principal .explicacion p{
+  margin-bottom: 10px;
+  color: #4D4545;
+  font-weight: bold;
+}
+/*Parte del Formulario*/
+.caja-principal .formulario{
+  margin: 20px;
+}
+.caja-principal .formulario h1{
+  color: #58026D;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.caja-principal .formulario label{
+  color: #8D003B;
+  font-weight: bolder;
+}
+.formulario .input-text{
+  border-radius: 4px;
+  padding: 3px;
+  font-size: 1em;
+  font-family: serif;
+  font-weight: bold;
+  color: #4D4545;
+}
+.boton{
+  font-weight: bold;
+  color: white;
+  background: #58026D;
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: .8em;
+}
+/*ESTILOS PARA LA PÁGINA PHP*/
+.texto-php{
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #4D4545;
+  margin: auto;
+  margin: 50px;
+}
+.boton-inicio{
+  margin: auto;
+  margin: 0px 50px;
+  font-weight: bold;
+  color: white;
+  background: #58026D;
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 1em;
+  text-decoration: none;
+  display: inline-block;
+}
