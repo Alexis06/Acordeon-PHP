@@ -21,7 +21,7 @@
     print('</p>');
     ?>
   <br>
-  <a class="boton-inicio" href="../index.html">Volver a la página de Inicio</a>
+  <a class="boton-inicio" href="../index.html">Inicio</a>
 
   </body>
 </html>
