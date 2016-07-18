@@ -1,0 +1,10 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald:700';
+
+body{
+  background:#001A3C;
+  font-family: font-family: 'Oswald', sans-serif;
+  color:#69371A;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 5em;
+}

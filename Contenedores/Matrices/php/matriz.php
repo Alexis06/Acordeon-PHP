@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Matrices</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" media="screen">
   </head>
   <body>
 
@@ -24,7 +25,7 @@
   $numeroRey_mago['Gaspar']=2;
   $numeroRey_mago['Baltazar']=3;
 
-  print('El ' .$numeros[1] .' de ' .$meses[1] .' llega el Rey Mago número ' .$numeroRey_mago['Melchor'] .'(' .$nombreRey_mago[0]) .').';
+  print('<div class="letras"><p>El ' .$numeros[1] .' de ' .$meses[1] .' llega el Rey Mago número ' .$numeroRey_mago['Melchor'] .'(' .$nombreRey_mago[0]) .').</p></div>';
   //El 5 de Enero llega el Rey Mago número 1(Melchor).
 
 
