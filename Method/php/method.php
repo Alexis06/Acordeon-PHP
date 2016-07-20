@@ -24,4 +24,4 @@
   <a class="boton-inicio" href="../index.html">Inicio</a>
 
   </body>
-</html>
+</htmtl>
