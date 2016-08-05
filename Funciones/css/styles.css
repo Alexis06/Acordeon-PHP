@@ -1,0 +1,107 @@
+body{
+
+  background-color: #469894;
+
+  font-family: 'Bitter', serif;
+}
+section{
+  background-color: #001F1E;
+
+  display: block;
+
+  margin: 10% auto;
+
+  padding: 10px;
+
+  border-radius: 20px;
+
+  max-width: 80%;
+  width: 600px;
+  height: 320px;
+
+  overflow: hidden;
+
+  transition: 3s;
+}
+section h1{
+  text-transform: uppercase;
+  color: #A72C30;
+  text-align: center;
+  font-size: 2em;
+
+  margin-bottom: 20px;
+}
+.lab{
+  margin-bottom: 20px;
+}
+.lab label{
+  margin-left: 120px;
+  font-size: 1.8em;
+  color: #A72C30;
+}
+ .inp-num{
+
+  margin-left: 8px;
+
+  border: none;
+  box-shadow: none;
+  border-radius: 2px;
+  background-color: #001F1E;
+
+  height: 25px;
+  width: 200px;
+
+  font-size: 2em;
+  color: #289893;
+  font-weight: bolder;
+}
+.inp-num:hover{
+  background-color: #289893;
+
+  border-bottom: solid 1px #A72C30;
+
+  color: #A72C30;
+
+  transition: 1s;
+}
+.inp-num:active{
+  border-bottom: solid 3px #A72C30;
+}
+.inp-submit{
+  margin-left: 325px;
+
+  display: inline-block;
+
+  padding: 8px 20px;
+
+  cursor: pointer;
+
+  border: none;
+  border-radius: 4px;
+
+  background-color: #4E0204;
+
+  font-size: 1em;
+  color: #fff;
+}
+.inp-submit:hover{
+  background-color: #3B1011;
+}
+.inp-submit:active{
+  text-transform: uppercase;
+  transition: 3s;
+}
+.result-text{
+
+  display: inline-block;
+
+  width: 100%;
+
+  padding: 10px 0;
+
+  text-align: center;
+  color: #289893;
+  font-size: 1.5em;
+
+  border-top: solid 3px #289893;
+}
