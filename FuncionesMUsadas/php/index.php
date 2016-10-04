@@ -178,3 +178,27 @@ $fecha = getdate($hora);
 
 print('<br>' .$fecha['hours']);
 print('<br>' .$fecha['weekday']);
+
+//FUNCION DATE
+//Son formatos de fecha predefinidos
+
+print('<br>' .date('d-m-y') );
+
+//FUNCION MKTIME
+//Ingresar la fecha de manera manual
+//hora,minutos,segundos,mes,dia y año
+//horario de verano = 1 y horario de de invierno = -1
+
+$fechaManual = mktime(12,29,0,8,15,2016);
+
+print($fechaManual);
+
+//Checar si la fecha es posible
+
+$fechaX = checkdate(12,12,2020);//La función dara como correcta las fechas entre el año 0 y el 32767
+
+if ($fechaX){//Es correcta
+    echo 'La fecha es correcta';
+} else{
+    echo 'La fecha no es correcta';
+}
