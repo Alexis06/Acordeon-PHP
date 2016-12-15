@@ -1,0 +1,17 @@
+/*
+font-family: 'Playfair Display', serif;       Titulos
+font-family: 'Poppins', sans-serif;           Texto
+font-family: 'Lustria', serif;                      Titulo Pagina
+*/
+.navbarPrincipal{
+    box-sizing: border-box;
+    margin-bottom: 0;
+
+    border-bottom: solid 2.5px #62D5A7;
+
+    background-color: #11999E;
+
+}
+.navbarPrincipal ~ a{
+    color: #F4F4F4;
+}
