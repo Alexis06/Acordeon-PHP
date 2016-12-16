@@ -3,15 +3,52 @@ font-family: 'Playfair Display', serif;       Titulos
 font-family: 'Poppins', sans-serif;           Texto
 font-family: 'Lustria', serif;                      Titulo Pagina
 */
+body{
+    background-color: #363636;
+}
 .navbarPrincipal{
     box-sizing: border-box;
-    margin-bottom: 0;
+    margin: 0;
 
-    border-bottom: solid 2.5px #62D5A7;
+    background-color: #363636;
 
-    background-color: #11999E;
+    border: none;
+
+    border-bottom: solid 2px #11999E;
 
 }
-.navbarPrincipal ~ a{
+.navbar-header>a{
+    color: #62D5A7;
+    font-size: 2.5em;
+    font-family: 'Lustria', serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.nav a{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: red;
+}
+.icon-angle-down{
+    color: #11999E;
+}
+.text>h1{
+    color: #11999E;
+    font-family: 'Playfair Display', serif;
+}
+.text p{
     color: #F4F4F4;
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    margin: 0;
+    box-sizing: border-box;
+}
+.slide>img{
+    border-radius: 5px;
+    margin: 10% 0 0 0;
+    max-width: 100%;
+    height: 200px;
+    max-height: 100%;
 }
