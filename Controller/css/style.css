@@ -1,0 +1,81 @@
+/*
+font-family: 'Playfair Display', serif;       Titulos
+font-family: 'Poppins', sans-serif;           Texto
+font-family: 'Lustria', serif;                      Titulo Pagina
+*/
+body{
+    background-color: #F0FFF3;
+    box-sizing: border-box;
+}
+/*NavBar*/
+.navbar{
+    background-color: #C6F1E7;
+}
+.navbar-header>a{
+    font-size: 2.5em;
+    color: #70ACB1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 0;
+    font-family: 'Lustria', serif;
+}
+.navbar-header>a:hover{
+    text-decoration: none;
+}
+.navbar-nav li>a{
+    font-family: 'Playfair Display', serif;
+    color: #70ACB1;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.navbar-nav li>a:hover{
+    background-color: #F0FFF3;
+}
+/*Footer*/
+.footer{
+    background-color: #70ACB1;
+}
+.footer .container-fluid h2>a{
+    margin: auto;
+    margin: 0 50% 0 40%;
+    color: #F0FFF3;
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+}
+.footer .container-fluid h2>a:hover{
+    text-decoration: none;
+}
+.footer .container-fluid h2>a:visited, .footer .container-fluid h2>a:link{
+    text-decoration: none;
+    color: #59606D;
+}
+/*Body Home Page*/
+.text>h1{
+    color: #70ACB1;
+    font-family: 'Playfair Display', serif;
+}
+.text p{
+    color: #59606D;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+}
+.text a, .text span{
+    color: #59606D;
+}
+.text a:hover{
+    text-decoration: none;
+    color: #70ACB1;
+}
+.text span:hover{
+    color: #70ACB1;
+}
+/*Imagen*/
+.slide>img{
+    border-radius: 5px;
+    margin: 10% 0 0 0;
+    max-width: 100%;
+    height: 200px;
+    max-height: 100%;
+}
