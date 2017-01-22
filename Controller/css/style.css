@@ -4,16 +4,22 @@ font-family: 'Poppins', sans-serif;           Texto
 font-family: 'Lustria', serif;                      Titulo Pagina
 */
 body{
-    background-color: #F0FFF3;
+    background-color: #DA5C53;
     box-sizing: border-box;
 }
 /*NavBar*/
 .navbar{
-    background-color: #C6F1E7;
+    background-color: #A8E4B1;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    min-width: 100%;
+    width: 100%;
+    z-index: 1;
 }
 .navbar-header>a{
     font-size: 2.5em;
-    color: #70ACB1;
+    color: #306D75;
     text-transform: uppercase;
     font-weight: bolder;
     margin-bottom: 0;
@@ -24,52 +30,28 @@ body{
 }
 .navbar-nav li>a{
     font-family: 'Playfair Display', serif;
-    color: #70ACB1;
+    color: #306D75;
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 0;
 }
 .navbar-nav li>a:hover{
-    background-color: #F0FFF3;
+    color: #A8E4B1;
+    background-color: #4AA3BA;
 }
-/*Footer*/
-.footer{
-    background-color: #70ACB1;
-}
-.footer .container-fluid h2>a{
-    margin: auto;
-    margin: 0 50% 0 40%;
-    color: #F0FFF3;
-    font-size: 1.2em;
-    font-weight: bolder;
-    font-family: 'Playfair Display', serif;
-}
-.footer .container-fluid h2>a:hover{
-    text-decoration: none;
-}
-.footer .container-fluid h2>a:visited, .footer .container-fluid h2>a:link{
-    text-decoration: none;
-    color: #59606D;
+.contenido-fijo{
+    margin-top: 5%;
 }
 /*Body Home Page*/
 .text>h1{
-    color: #70ACB1;
+    color: #306D75;
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 .text p{
-    color: #59606D;
+    color: #A8E4B1;
     font-family: 'Poppins', sans-serif;
     display: block;
-}
-.text a, .text span{
-    color: #59606D;
-}
-.text a:hover{
-    text-decoration: none;
-    color: #70ACB1;
-}
-.text span:hover{
-    color: #70ACB1;
 }
 /*Imagen*/
 .slide>img{
@@ -78,4 +60,27 @@ body{
     max-width: 100%;
     height: 200px;
     max-height: 100%;
+}
+/*Referencia Lenguaje*/
+.list-nav{
+    font-size: 1em;
+}
+.list-nav>h1{
+    color: #306D75;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    margin-left: 8%;
+    margin-bottom: 3%;
+}
+.list-nav ul>li, .list-nav ul li>a {
+    color: #4AA3BA;
+    text-transform: uppercase;
+    font-weight: bold; 
+    margin-top: 2%; 
+}
+.list-nav ol>li, .list-nav ol li>a{
+    color: #A8E4B1;
+    font-family: 'Poppins', sans-serif;
+    text-transform: initial;
 }

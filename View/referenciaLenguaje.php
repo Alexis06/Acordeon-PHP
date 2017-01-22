@@ -2,7 +2,6 @@
 include_once('../Model/General/custom.php');
 include_once('../Model/General/navBar.php');
 include_once('../Model/HomePage/body.php');
-include_once('../Model/General/footer.php');
 include_once('../Model/ReferenciaLenguaje/guideNav.php');
  ?>
 <!DOCTYPE html>
@@ -32,8 +31,6 @@ include_once('../Model/ReferenciaLenguaje/guideNav.php');
         $barraNav->nav();
         $guide = new guide;
         $guide->guideNav();
-        $fet = new footer;
-        $fet->foot();
         ?>
     </body>
 </html>
