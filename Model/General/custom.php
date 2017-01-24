@@ -38,9 +38,9 @@ class custom
     {
         print(' <script src="..Controller/js/bootstrap.min.js"></script> ');
     }
-    public function layoutJS()
+    public function funtions()
     {
-        print(' <script src="../Controller/js/layout.js"></script> ');
+        print(' <script src="../Controller/js/funtions.js"></script> ');
     }
 }
 

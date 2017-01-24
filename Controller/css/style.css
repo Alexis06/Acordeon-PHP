@@ -42,6 +42,76 @@ body{
 .contenido-fijo{
     margin-top: 5%;
 }
+.icon-bars{
+    display: none;
+}
+@media screen and (min-width: 992){
+    .icon-bars{
+        display: none;
+        position: 
+    }
+}
+@media screen and (max-width: 991px){
+    .navbar{
+        position: relative;
+        box-sizing: border-box;
+    }
+    .navbar .container ul{
+        display: none;
+    }
+    .icon-bars{
+        position: absolute;
+        display: block;
+        font-size: 2em;
+        color: #306D75;
+        cursor: pointer;
+        margin: 5px 0 0 0;
+        left: 90%;
+        top: 5%;
+        transition-duration: .2s;
+    }
+    .icon-bars:hover{
+        font-size: 2.3em;
+    }
+}
+/*Side Navigation*/
+.menu-despegable{
+    position: fixed;
+    background-color: #A8E4B1;
+    opacity: .8;
+    width: 0;
+    max-width: 0;
+    height: 100%;
+    max-height: 100%;
+    top: 0%;
+    left: 70%;
+    z-index: 2;
+    overflow-x: hidden;
+    padding-top: 5%;
+    transition: .5s;
+    display: block;
+}
+.menu-despegable a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #4AA3BA;
+    display: block;
+    transition: 0.3s;
+}
+.menu-despegable a:hover{
+    color: #306D75;
+    font-weight: bold;
+}
+/*
+.menu-despegable .icon-bars{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    font-size: 2.5em;
+    margin-right: 70%;
+}
+*/
 /*Body Home Page*/
 .text>h1{
     color: #306D75;
@@ -57,20 +127,28 @@ body{
 .slide>img{
     border-radius: 5px;
     margin: 10% 0 0 0;
+    width: 100%;
     max-width: 100%;
     height: 200px;
     max-height: 100%;
 }
 /*Referencia Lenguaje*/
 .list-nav{
+    box-sizing: border-box;
     font-size: 1em;
+    margin-top: 3%;
+    margin-left: 3%;
+    padding: 2% 0% 1% 5%;
+    width: 60%;
+    max-width: 60%;
+    border: 5px solid #306D75;
 }
 .list-nav>h1{
     color: #306D75;
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
-    margin-left: 8%;
+    margin-left: 6%;
     margin-bottom: 3%;
 }
 .list-nav ul>li, .list-nav ul li>a {

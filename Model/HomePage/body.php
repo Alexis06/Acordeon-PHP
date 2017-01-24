@@ -2,7 +2,7 @@
 
 class body
 {
-    public function bo()
+    public function cuerpo()
     {
     print("
         <div class='contenido-fijo'>

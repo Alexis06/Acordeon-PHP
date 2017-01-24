@@ -6,7 +6,7 @@ class guide
     {
         print(' <div class="contenido-fijo"> 
                         <div class="row">
-                                        <div class="col-md-12">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                             <div class="container-fluid">
                                                 <div class="list-nav">
                                                 <h1>Referencia del Lenguaje</h1>

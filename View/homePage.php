@@ -18,10 +18,6 @@ include_once('../Model/HomePage/body.php');
         $custom->fonts();
         $custom->bootstrapCSS();
         $custom->layoutCSS();
-        /*JS*/
-        $custom->jQuery();
-        $custom->bootstrapJS();
-        $custom->layoutJS();
         ?>
     </head>
     <body>
@@ -29,7 +25,11 @@ include_once('../Model/HomePage/body.php');
         $barraNav = new navBar;
         $barraNav->nav();
         $cuerpo = new body;
-        $cuerpo->bo();
+        $cuerpo->cuerpo();
+        //JS
+        $custom->jQuery();
+        $custom->bootstrapJS();
+        $custom->funtions();
         ?>
     </body>
 </html>
