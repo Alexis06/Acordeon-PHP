@@ -3,6 +3,7 @@ include_once('../Model/General/custom.php');
 include_once('../Model/General/navBar.php');
 include_once('../Model/HomePage/body.php');
 include_once('../Model/ReferenciaLenguaje/guideNav.php');
+include_once('../Model/ReferenciaLenguaje/Tipos/guideLocal.php');
  ?>
 <!DOCTYPE html>
 <html>
@@ -22,7 +23,7 @@ include_once('../Model/ReferenciaLenguaje/guideNav.php');
         /*JS*/
         $custom->jQuery();
         $custom->bootstrapJS();
-        $custom->layoutJS();
+        $custom->funtions();
         ?>
     </head>
     <body>
@@ -31,6 +32,9 @@ include_once('../Model/ReferenciaLenguaje/guideNav.php');
         $barraNav->nav();
         $guide = new guide;
         $guide->guideNav();
+        /*Tipos*/
+        $Tipos = new Tipos;
+        $Tipos->guideTipos();
         ?>
     </body>
 </html>

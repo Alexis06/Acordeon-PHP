@@ -10,7 +10,7 @@ class body
                 <div class='row'>
                     <div class='col-md-12'>
                         <div class='slide col-md-6'>
-                            <img src='../Model/img/image1.jpg'>
+                            <img src='../Model/img/programadores.jpg'>
                         </div>
                         <div class='text col-md-6'>
                             <h1>PHP</h1>

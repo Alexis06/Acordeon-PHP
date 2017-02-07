@@ -36,7 +36,7 @@ class custom
     }
     public function bootstrapJS()
     {
-        print(' <script src="..Controller/js/bootstrap.min.js"></script> ');
+        print(' <script src="../Controller/js/bootstrap.min.js"></script> ');
     }
     public function funtions()
     {

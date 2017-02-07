@@ -28,8 +28,8 @@ include_once('../Model/HomePage/body.php');
         $cuerpo->cuerpo();
         //JS
         $custom->jQuery();
+        $custom->funtions();        
         $custom->bootstrapJS();
-        $custom->funtions();
         ?>
     </body>
 </html>

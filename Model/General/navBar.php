@@ -6,6 +6,7 @@ class navBar
     public function nav()
     {
         print("
+            <!--Menu despegable-->
             <div class='menu-despegable' id='menuDespegable'>
                 <span href='javascript:void(0);' onclick='closeMenu()'></span>
                     <a href='referenciaLenguaje.php'>Referencia del Lengiaje</a>
@@ -13,6 +14,7 @@ class navBar
                     <a href='capasAbstractas.php'>Capas Abstractas</a>
                     <a href='practicas.php'>Practicas</a>
             </div>
+            <!--Menu base-->
             <nav class='navbar'>
                 <div class='container'>
                     <div class='navbar-header'>
@@ -32,7 +34,7 @@ class navBar
                                 <a href='practicas.php'>Practicas</a>
                             </li>
                         </ul>
-                        <span class='icon-bars'>
+                        <span class='icon-bars' id='botonO'>
                             <a href='javascript:void(0);' onclick='openMenu()'></a>
                         </span>
                     </div>

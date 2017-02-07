@@ -1,112 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>IF</title>
-  </head>
-  <body>
+<?php
 
-    <form action="if.php" method="post">
-      <label for="delegacion">Elige la delegación en la que resides:</label>
-        <select name="delegacion">
-          <option value="Álvaro Obregón">Álvaro Obregón</option>
-          <option value="Azcapozalco"> Azcapozalco</option>
-          <option value="Benito Juárez">Benito Juárez</option>
-          <option value="Coyoacán">Coyoacán</option>
-          <option value="Cuajimalpa de Morelos">Cuajimalpa de Morelos</option>
-          <option value="Cuahutémoc">Cuahutémoc</option>
-          <option value="Gustavo A. Madero">Gustavo A. Madero</option>
-          <option value="Iztacalco">Iztacalco</option>
-          <option value="Iztapalapa">Iztapalapa</option>
-          <option value="Magdalena Contreras">Magdalena Contreras</option>
-          <option value="Miguel Hidalgo">Miguel Hidalgo</option>
-          <option value="Milp Alta">Milp Alta</option>
-          <option value="Tláhuac">Tláhuac</option>
-          <option value="Tlalpan">Tlalpan</option>
-          <option value="Venustiano Carranza">Venustiano Carranza</option>
-          <option value="Xochimilco">Xochimilco</option>
-        </select>
-      <input type="submit" value="Enviar">
-    </form>
+$numero = 3;
 
-    <?php
+//If simple
+if($numero == 5){
+    print("Son numeros iguales<br>");
+}else{
+  print("Son numeros diferentes<br>");
+}
 
-    $delegacion=$_POST['delegacion'];
+//if multiple
+if($numero == 3){
+  print("El numero es 3<br>");
+}elseif($numero == 4){
+  print("El numero es 4<br>");  
+}elseif($numero == 5){
+  print("El numero es 5<br>");  
+}else{
+  print("El numero que ingresaste es incorrecto<br>");  
+}
 
-if(isset($delegacion)){
-
-      switch ($delegacion) {
-        case 'Álvaro Obregón':
-                print('Resides en la delegación: Álvaro Obregón ¿es correcto?');
-          break;
-
-        case 'Azcapozalco':
-                print('Resides en la delegación: Azcapozalco ¿es correcto?');
-          break;
-
-        case 'Benito Juárez':
-                print('Resides en la delegación: Benito Juárez ¿es correcto?');
-          break;
-
-        case 'Coyoacán':
-                print('Resides en la delegación: Coyoacán ¿es correcto?');
-          break;
-
-          case 'Cuajimalpa de Morelos':
-                  print('Resides en la delegación: Cuajimalpa de Morelos ¿es correcto?');
-            break;
-
-          case 'Cuahutémoc':
-                  print('Resides en la delegación: Cuahutémoc ¿es correcto?');
-            break;
-
-          case 'Gustavo A. Madero':
-                  print('Resides en la delegación: Gustavo A. Madero ¿es correcto?');
-           break;
-
-          case 'Iztacalco':
-                  print('Resides en la delegación: Iztacalco ¿es correcto?');
-            break;
-
-          case 'Iztapalapa':
-                  print('Resides en la delegación: Iztapalapa ¿es correcto?');
-           break;
-
-          case 'Magdalena Contreras':
-                  print('Resides en la delegación: Magdalena Contreras ¿es correcto?');
-            break;
-
-          case 'Miguel Hidalgo':
-                  print('Resides en la delegación: Miguel Hidalgo ¿es correcto?');
-            break;
-
-          case 'Milp Alta':
-                  print('Resides en la delegación: Milp Alta ¿es correcto?');
-            break;
-
-          case 'Tláhuac':
-                  print('Resides en la delegación: Tláhuac ¿es correcto?');
-            break;
-
-          case 'Tlalpan':
-                  print('Resides en la delegación: Tlalpan ¿es correcto?');
-            break;
-
-          case 'Venustiano Carranza':
-                  print('Resides en la delegación: Venustiano Carranza ¿es correcto?');
-            break;
-
-           case 'Xochimilco':
-                  print('Resides en la delegación: Xochimilco ¿es correcto?');
-            break;
-
-            default:
-                  print('Indica la Delegación en la que resides');
-              break;
-      }
-  } else {
-    print('Debes de seleccionar una delegación para poder continuar');
+//if enlazados
+if($numero == 5){
+  if($numero === '5'){
+    print("Tu numero es correcto<br>");
+  }else{
+    print("Tu numero si es 5 pero no es '5'<br>");
   }
+}else{
+  print("Tu numero no es 5");
+}
 ?>
-  </body>
-</html>
